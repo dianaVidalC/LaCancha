@@ -1,0 +1,70 @@
+body{
+  margin:15em auto;
+  margin-left: 25em;
+  width: 80%;
+}
+.area{
+  position:absolute;
+  height: 100px;
+  width: 50px;
+  border:1px solid #DEE8DA;
+}
+
+.balon{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:#ECECEC;
+}
+
+#campo{
+  position: relative;
+  width: 422px;
+  height: 222px;
+  background-color:#8FB280;
+}
+
+#cancha{
+  position: absolute;
+  border:1px solid #DEE8DA;
+  width: 400px;
+  height: 200px;
+  margin:10px 10px;
+}
+
+#areaI{
+  left: 0;
+  top:50px;
+
+}
+
+#areaII{
+  right: 0;
+  top: 50px;
+}
+
+#circulo{
+  position: absolute;
+  left: 175px;
+  top:75px;
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  border:1px solid #DEE8DA;
+}
+
+#balonI{
+  top:50px;
+  left: 47px;
+}
+
+#balonII{
+  top:30px;
+  left: 182px;
+}
+
+#balonIII{
+  bottom:48px;
+  right: 50px;
+}
