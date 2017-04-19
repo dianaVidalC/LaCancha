@@ -11,8 +11,6 @@ var balonI=document.createElement("div");
 var balonII=document.createElement("div");
 var balonIII=document.createElement("div");
 
-//divContenedor.setAttribute("id","area");
-//cancha.classList.add("cancha");
 cancha.setAttribute("id","cancha");
 campo.setAttribute("id","campo")
 
@@ -27,7 +25,6 @@ balonII.classList.add("balon");
 balonII.setAttribute("id","balonII");
 balonIII.classList.add("balon");
 balonIII.setAttribute("id","balonIII");
-//circuloCentral.classList.add("area");
 
 cancha.appendChild(balonI);
 cancha.appendChild(balonII);
@@ -36,5 +33,4 @@ cancha.appendChild(circuloCentral);
 cancha.appendChild(areaChicaI);
 cancha.appendChild(areaChicaII);
 campo.appendChild(cancha);
-//divContenedor.appendChild(campo);
 body.appendChild(campo);
